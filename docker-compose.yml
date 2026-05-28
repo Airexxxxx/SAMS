@@ -1,0 +1,14 @@
+services:
+  sams:
+    build: .
+    container_name: sams
+    ports:
+      - "8501:8501"
+    volumes:
+      - sams_data:/app/data
+    restart: unless-stopped
+    environment:
+      - SAMS_DATA_DIR=/app/data
+
+volumes:
+  sams_data:

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.db
+*.db.backup*
+*.db.before_restore*
+.git/
+.env
