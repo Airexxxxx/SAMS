@@ -4,7 +4,7 @@ Server Asset Management System，企业级服务器资产全生命周期管理�
 
 ## 技术栈
 
-- Python 3.12+
+- Python 3.11+/Python 3.12+
 - Streamlit 1.57+
 - SQLite (WAL 模式)
 - pandas / openpyxl
